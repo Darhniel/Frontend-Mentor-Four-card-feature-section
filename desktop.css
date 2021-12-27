@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@media screen and (min-width: 768px) {
+    body {
+        width: 100vw;
+        margin: 5% auto;
+    }
+    header {
+        width: 66%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    div.card-feature {
+        width: 30%;
+    }
+    img {
+        left: 80%;
+    }
+    div.cyan {
+        position: absolute;
+        top: 60%;
+        left: 4%;
+    }
+    div.red {
+        position: absolute;
+        left: 36%;
+    }
+    div.orange {
+        position: absolute;
+        top: 60%;
+        left: 68%;
+    }
+    div.blue {
+        position: absolute;
+        left: 36%;
+        top: 83%;
+    }
+    footer {
+        position: absolute;
+        left: 32%;
+        top: 128%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 100vw;
+    }
+    header {
+        width: 70%;
+        margin: auto;
+        margin-bottom: rem;
+        text-align: center;
+    }
+    div.heading-text {
+        width: 70%;
+        margin: auto;
+    }
+    div.card-feature {
+        width: 28%;
+    }
+    img {
+        left: 80%;
+    }
+    div.cyan {
+        position: absolute;
+        top: 51%;
+    }
+    div.red {
+        position: absolute;
+        left: 36%;
+    }
+    div.orange {
+        position: absolute;
+        top: 67%;
+        left: 36%;
+    }
+    div.blue {
+        position: absolute;
+        top: 51%;
+        left: 66%;
+    }
+    footer {
+        position: absolute;
+        top: 97%;
+        left: 40%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        width: 44%;
+        margin-bottom: 3rem;
+    }
+    div.card-feature {
+        width: 20%;
+    }
+    div.cyan {
+        top: 33%;
+        left: 18%;
+    }
+    div.red {
+        left: 40%;
+    }
+    div.orange {
+        top: 44%;
+        left: 40%;
+    }
+    div.blue {
+        top: 33%;
+        left: 62%;
+    }
+}
